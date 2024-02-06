@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <p>{{ content }}</p>
+        {% if is_auth %}
+        <p>{{ names.0 }}</p>
+        <p>{{ age.Masha }}</p>
+        <p>{{ names.1 }}</p>
+        <p>{{ age.Lera }}</p>
+    {% endif %}
+</body>
+
+</html>
